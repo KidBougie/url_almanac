@@ -1,6 +1,6 @@
 # README
 
-Medium: Photogur Project
+Medium: Photogur/url_almanac Project
 
 This project will create a clone of Imgur called Photogur. It allows users to re-post images they find online.
 
