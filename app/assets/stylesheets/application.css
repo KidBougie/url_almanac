@@ -1,0 +1,58 @@
+body {
+  background-color: #717171;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#titlebox {
+  margin: .5em auto;
+  width: 50%;
+}
+
+#urlbox {
+  margin: .5em auto;
+  width: 50%;
+}
+
+.header {
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/002/193/552/large/alex-jay-brady-g8.jpg?1458512854);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 580px;
+
+}
+
+.ami{
+  font-size: 90px;
+  color: white;
+  font-family: helvetica;
+  padding-top: 170px;
+}
+.amie{
+  font-size: 45px;
+  color: white;
+  font-family: helvetica;
+  padding-top: 8px;
+}
+.picpage{
+  padding: 3em;
+}
+.editpage{
+  padding: 4em;
+}
+
+.p-container {
+  margin: 1em;
+  padding: 1.5em;
+  width: 100%;
+  height: auto;
+  border-style: solid;
+  border-width: thin;
+  border-color: #cacaca;
+  /*border-radius: .5em;*/
+  /*box-shadow: 10px 10px 4px black;*/
+}
+
+.p-container .trash {
+  float: left;
+}

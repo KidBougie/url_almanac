@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+<div class="header">
+  <p class="ami">AMI</p>
+  <p class="amie">Your Online Almanac</p>
+</div>
+<div class="container">
+  <h1 class="lead">SAVE YOUR COMPUTER SPACE</h1>
+  <h1 class="lead">ENTER TITLE AND URL HERE</h1>
+  <%= render 'form', photo: Photo.new %>
+</div>
+
+<div class="container">
+  <% @photos.reverse_each do |photo| %>
+  <div class='col-md-4'>
+    <div class="p-container">
+
+
+    <%= link_to image_tag(photo.url, class: "img-responsive"), photo %>
+    <!-- <%= link_to 'Show', photo %> -->
+    <%= link_to '<span class="glyphicon glyphicon-remove"></span>'.html_safe, photo, method: :delete, data: { confirm: 'Are you sure?' } %>
+</button>
+  </div>
+  </div>
+  <% end %>
+
+</div>
